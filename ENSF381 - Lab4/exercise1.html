@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab4 - Exercise 1</title>
+    </head>
+    <body>
+        <h1>JavaScript Lab</h1>
+        <script>
+            let var1 = 10;
+            const var2 = 5;
+            let var3 = 1;
+
+            var1 = 30;
+/*          var2 = 4;   */
+
+            string1 = "Hello, World!"
+            string2 = "JavaScript is fun!"
+
+            console.log("Length of String1: ", string1.length);
+            let string3 = string1 + " " + string2;
+            console.log(string3);
+            let string4 = string2.replace("fun", "awesome");
+            console.log(string4);
+
+            let name = "Alice";
+            let age = "25";
+            let string5 = `My name is ${name} and I am ${age} years old`;
+            console.log(string5);
+
+            let date = new Date();
+            console.log("Full Date: ", date);
+            let year = date.getFullYear();
+            console.log("Year: ", year);
+            let month = date.getMonth() + 1;
+            console.log("Month: ", month);
+            let dayNum = date.getDay();
+            console.log("Day Number: ", dayNum);
+
+            const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+            let dayName = weekday[dayNum];
+            console.log("Day Name: ", dayName);
+
+        </script>
+    </body>
+</html>
